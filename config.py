@@ -19,7 +19,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001645282995"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002175688264"))
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
 
@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TG_NAME_STYLE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_MOI_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+9DHw3n0VZk05Njdl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+mO8Gx5nOJms5Y2Nl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = False
@@ -103,18 +103,18 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/7d2c8184cecf4dcdd61a9.png"
+    "START_IMG_URL", "https://graph.org/file/4e5932e15f499cf354f5c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/ec38337d2badb1bef7768.jpg"
+    "PING_IMG_URL", "https://graph.org/file/66ab5aa0c2566363eb1e4.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/184b0b0db4013b0ee42d1.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/cf15c7533f8fe5a96e48f.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/4a91cddfa7d6c001f5d9e.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/9876067d27aa60e02a1fb.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/1e4d6062a2d36040e7d98.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
